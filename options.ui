@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>options</class>
+ <widget class="QDialog" name="options">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>419</width>
+    <height>422</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Welcome to use BMS</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QPushButton" name="options_depositButton">
+     <property name="text">
+      <string>Deposit Money</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="options_withdrawButton">
+     <property name="text">
+      <string>Withdraw Money</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="options_flowButton">
+     <property name="text">
+      <string>Search Statement</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="options_changeButton">
+     <property name="text">
+      <string>Change Acccout Info</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="options_passwdButton">
+     <property name="text">
+      <string>Change Password</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="options_lostButton">
+     <property name="text">
+      <string>Report Loss</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="options_logoutButton">
+     <property name="text">
+      <string>Log Out</string>
+     </property>
+     <property name="default">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
